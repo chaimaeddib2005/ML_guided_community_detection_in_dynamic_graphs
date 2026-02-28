@@ -70,7 +70,4 @@ Evaluator.print_summary(results)
 ```
 
 ## Notes
-
-- The `DynamicCommunityPredictor` in Sections 1–2 depends on external modules (`Improved_Louvain_Algo`, `PredictionModel`) not included here — those cells show outputs from a previous run
-- The best standalone demo is Section 7 (`OptimizedIncrementalLouvain`) — fully self-contained and shows the clearest speedup
 - Localized modifications (changes clustered near an epicenter) favor incremental dramatically; random global perturbations narrow the gap
